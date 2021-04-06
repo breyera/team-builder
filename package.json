@@ -1,0 +1,28 @@
+{
+  "name": "team-builder",
+  "version": "1.0.0",
+  "description": "build a team with node and test functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breyera/team-builder.git"
+  },
+  "keywords": [
+    "node.js",
+    "inquirer",
+    "jest"
+  ],
+  "author": "breyera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/breyera/team-builder/issues"
+  },
+  "homepage": "https://github.com/breyera/team-builder#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3"
+  }
+}
