@@ -25,9 +25,9 @@ function newEmployee() {
             'Manager',
             'Engineer',
             'Intern',
-            'Done Adding',
-          ],
-        },
+            'Done Adding'
+          ]
+        }
       ])
       .then((answers) => {
         switch (answers.employee) {
@@ -53,23 +53,23 @@ function newEmployee() {
         {
           type: 'input',
           name: 'name',
-          message: 'What is your manager"s name?',
+          message: "What is your manager's name?"
         },
         {
           type: 'input',
           name: 'id',
-          message: 'What is your manager"s ID?',
+          message: "What is your manager's ID?"
         },
         {
           type: 'input',
           name: 'email',
-          message: 'What is your manager"s email?',
+          message: "What is your manager's email?"
         },
         {
           type: 'input',
           name: 'officeNumber',
-          message: 'What is your manager"s office number?',
-        },
+          message: "What is your manager's office number?"
+        }
       ])
   
       .then((answers) => {
@@ -90,23 +90,23 @@ function newEmployee() {
         {
           type: 'input',
           name: 'name',
-          message: 'What is your engineer"s name?',
+          message: "What is your engineer's name?"
         },
         {
           type: 'input',
           name: 'id',
-          message: 'What is your engineer"s ID?',
+          message: "What is your engineer's ID?"
         },
         {
           type: 'input',
           name: 'email',
-          message: 'What is your engineer"s email?',
+          message: "What is your engineer's email?"
         },
         {
           type: 'input',
           name: 'github',
-          message: 'What is your engineer"s Github username?',
-        },
+          message: "What is your engineer's Github username?"
+        }
       ])
   
       .then((answers) => {
@@ -127,23 +127,23 @@ function newEmployee() {
         {
           type: 'input',
           name: 'name',
-          message: 'What is your intern"s name?',
+          message: "What is your intern's name?"
         },
         {
           type: 'input',
           name: 'id',
-          message: 'What is your intern"s ID?',
+          message: "What is your intern's ID?"
         },
         {
           type: 'input',
           name: 'email',
-          message: 'What is your intern"s email?',
+          message: "What is your intern's email?"
         },
         {
           type: 'input',
           name: 'school',
-          message: 'What school does your intern attend?',
-        },
+          message: "What school does your intern attend?"
+        }
       ])
   
       .then((answers) => {
