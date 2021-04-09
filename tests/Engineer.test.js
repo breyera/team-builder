@@ -16,4 +16,4 @@ describe('Engineer class', () => {
             expect(new Engineer('Alicia', 'name@company.com', '545', 'Github').getGithub()).toBe('Github')
         });
     });
-})
+});
