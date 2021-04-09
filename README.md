@@ -4,7 +4,7 @@
 
 ## Description
 
-A node.js application that takes user input from inquirer to populate an HTML file based that displays the team's basic info - their names, roles, ids, emails, office numbers, and github repos. The HTML file is created in the dist folder and can be found [here.](./dist/index.html) Test code was also written to make sure class js files functioned properly, and passed using jest in node.js.
+A node.js application that takes user input from inquirer to populate an HTML file based that displays the team's basic info - their names, roles, ids, emails, office numbers, and github repos. The HTML file is created in the dist folder and can be found [here.](./dist/index.html) Test code was also written to make sure class js files functioned properly, and passed using jest in node.js. Watch the video below to see how to use, or follow the steps.
 
 ## How To
 
@@ -23,7 +23,7 @@ A node.js application that takes user input from inquirer to populate an HTML fi
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 MIT License
 
-### Screenshot
+### Screenshots
 
 ![image of home page](./assets/home-screenshot.PNG)
 ![image of open card](./assets/card-open-screenshot.PNG)
